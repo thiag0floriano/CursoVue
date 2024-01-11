@@ -3,7 +3,6 @@
   <LifeCycle />
   <Pessoa />
   <Form />
-
 </template>
 
 <script>
