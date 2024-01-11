@@ -1,14 +1,17 @@
 <template>
     <h2>Etaá é a descrição da passoa: </h2>
-    <info />
+    <Info />
+    <Form />
 </template>
 
 <script>
-    import info from './info.vue';
+    import Info from './Info.vue';
+    import Form from './Form.vue';
     export default {
         name: 'Pessoa',
         components: {
-            info
+            Info,
+            Form
         },
         data(){
             return {
