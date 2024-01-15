@@ -1,11 +1,13 @@
 <template>
-    <form action="">
+    <form action="" @Submit="enviarFormulario($event)">
         <h1>Meu Formulario</h1>
         <div>
-            <InputText />
+            <!-- <InputText /> -->
+            <input type="text" v-model="nome">
         </div>
         <div>
-            <InputText />
+            <!-- <InputText /> -->
+            <input type="text" v-model="email">
         </div>
         <div>
             <Submit />
@@ -22,10 +24,25 @@
             InputText,
             Submit
         },
-        data(){
-            return{
-
+        data() {
+            return {
+                nome: '',
+                email: ''
             }
-        }
+        },
+        methods: {
+            enviarFormulario(e){
+
+                e.preventDefault();
+
+                const nome = this.nome;
+                const email = this.email;
+
+                console.log("Formulario Enviado!");
+                console.log("O nome é: "+ nome);
+                console.log("O email é: "+ email);
+            }
+            
+        }    
     }
 </script>
