@@ -1,9 +1,11 @@
 <template>
-    <h2>Testando minha lista de array</h2>
-    
-    <ul>
-        <li v-for="(listaTeste, index) in lista1" v-bind:key="index"> {{ listaTeste }} </li>
-    </ul>
+    <div>
+        <h2>Testando minha lista de array</h2>
+        
+        <ul>
+            <li v-for="(listaTeste, index) in lista1" v-bind:key="index"> {{ listaTeste }} </li>
+        </ul>
+    </div>
 
 </template>
 

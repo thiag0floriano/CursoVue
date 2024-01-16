@@ -1,11 +1,12 @@
 <template>
-    <h2>Testando minha lista com objeto</h2>
-
-    <ul>
-        <li v-for="objetoTeste in objeto1" :key="objetoTeste.id">
-            {{ objetoTeste.item }}
-        </li>
-    </ul>
+    <div>
+        <h2>Testando minha lista com objeto</h2>
+        <ul>
+            <li v-for="objetoTeste in objeto1" :key="objetoTeste.id">
+                {{ objetoTeste.item }}
+            </li>
+        </ul>
+    </div>
 
 </template>
 

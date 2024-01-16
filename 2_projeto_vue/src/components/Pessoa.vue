@@ -1,7 +1,9 @@
 <template>
-    <h2>Etaá é a descrição da passoa: </h2>
-    <Info />
-    <Form />
+    <div>
+        <h2>Etá é a descrição da passoa: </h2>
+        <Info :email = "email"/>
+        <Form />
+    </div>
 </template>
 
 <script>
@@ -15,7 +17,8 @@
         },
         data(){
             return {
-                nome: 'Thiago'
+                nome: 'Thiago',
+                email: "thiago@oops.net.br"
             }
         }
     }

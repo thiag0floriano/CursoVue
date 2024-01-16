@@ -33,11 +33,13 @@
         components: {
             Picture
         },
+        props:{
+            email: String
+        },
         data(){
             return{
                 esta_trabalhando: false,
                 mostrar_email: false,
-                email: 'thiago@oops.net.br',
                 meu_link: "https://google.com",
                 textoBotao: "Mostrar e-mail",
                 backend_technologies: ['JavaScript','PHP','Java'],

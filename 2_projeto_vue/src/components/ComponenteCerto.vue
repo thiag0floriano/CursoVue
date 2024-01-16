@@ -1,7 +1,9 @@
 <template>
-    <h1>Olá Vue!</h1>
-    <p>Sera que deu certo? {{ resposta }} é agora ? {{ fala }}</p>
-    <MultiplosEventos />
+    <div>
+        <h1>Olá Vue!</h1>
+        <p>Sera que deu certo? {{ resposta }} é agora ? {{ fala }}</p>
+        <MultiplosEventos />
+    </div>
 </template>
 
 <script>

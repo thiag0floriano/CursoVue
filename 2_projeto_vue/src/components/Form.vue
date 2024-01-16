@@ -1,18 +1,20 @@
 <template>
-    <form action="" @Submit="enviarFormulario($event)">
-        <h1>Meu Formulario</h1>
-        <div>
-            <!-- <InputText /> -->
-            <input type="text" v-model="nome">
-        </div>
-        <div>
-            <!-- <InputText /> -->
-            <input type="text" v-model="email">
-        </div>
-        <div>
-            <Submit />
-        </div> 
-    </form>
+    <div>
+        <form action="" @Submit="enviarFormulario($event)">
+            <h1>Meu Formulario</h1>
+            <div>
+                <!-- <InputText /> -->
+                <input type="text" v-model="nome">
+            </div>
+            <div>
+                <!-- <InputText /> -->
+                <input type="text" v-model="email">
+            </div>
+            <div>
+                <Submit />
+            </div>
+        </form>
+    </div>
 </template>
 
 <script>
