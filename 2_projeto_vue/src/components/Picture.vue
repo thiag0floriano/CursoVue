@@ -24,7 +24,7 @@ export default{
     },
     methods: {
         trocarImagem() {
-            console.log("Opa")
+            this.avatar = "/img/avatar2.png"
         }
     }
 }

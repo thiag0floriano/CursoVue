@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="$emit('mudarimagem')">Trocar imagem de perfil</button>
+        <button @click="$emit('mudarImagem')">Trocar imagem de perfil</button>
     </div>
 </template>
 
